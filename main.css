@@ -10,7 +10,7 @@ section{
   background-repeat: no-repeat;
   height: 100vh;
   width: 150vw;
-  transform: scale(1.5);
+  transform: scale(2.7);
   filter: blur(1.5px);
   -webkit-filter: blur(1.5px);
 }
