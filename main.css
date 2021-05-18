@@ -12,6 +12,17 @@ nav {
   color: #fff;
 }
 
+.container,
+.paginate-container {
+  width: calc(100% - 40px);
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 12px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+  border-radius: 8px;
+}
+
 .funcBatch {
   text-align: center;
 }
