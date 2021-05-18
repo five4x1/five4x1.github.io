@@ -5,6 +5,13 @@ $(document).ready(function() {
   } else {
     $("#flex-container>#funcBatch").hide();
   }
+if ($(".paginate-container).length > 0){
+    $(this).show();
+  } else {
+    $(this).hide();
+  }
+
+  
   
   $('.items').css({"box-shadow":"none"});
   
