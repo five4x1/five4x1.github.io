@@ -16,8 +16,9 @@ section{
 }
 
 .nav {
-text-align: center;
+  text-align: center;
   padding: 24px;
+  font-size: xx-large;
 }
 main{
   position: absolute;
