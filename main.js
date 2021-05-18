@@ -6,7 +6,7 @@ $(document).ready(function() {
     $("#flex-container>#funcBatch").hide();
   }
   
-  $('.items').removeAttr('style');
+  $('.items').css({"box-shadow":"none"});
   
   $('body').mousemove(function(e) {
     var x = (e.pageX * -1 / 15);
