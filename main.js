@@ -1,7 +1,6 @@
 // main JS for 54x1
 $(document).ready(function() {
-      $(window).on('pageshow', function(){
-      if ($(".items>div>a").length > 0) {
+            if ($(".items>div>a").length > 0) {
         $("#flex-container>#funcBatch").show();
       } else {
         $("#flex-container>#funcBatch").hide();
@@ -18,6 +17,7 @@ $(document).ready(function() {
       $('.items').css({
         "box-shadow": "none"
       });
+      $(window).on('mousemove', function(){
           $('body').mousemove(function(e) {
             var x = (e.pageX * -1 / 15);
             var y = (e.pageY * -1 / 15);
