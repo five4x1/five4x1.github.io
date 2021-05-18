@@ -1,11 +1,8 @@
-/* // main CSS for 54x1 */
 body {
   background-color: CornflowerBlue;
-  color: AliceBlue!important;
-  
+  color: AliceBlue !important;
 }
 
-.funcBatch{
+.funcBatch {
   text-align: center;
 }
-  
