@@ -1,10 +1,14 @@
 body {
   background-color: #27316a;
   color: AliceBlue!important;
+}
+section{
   background-image: url('https://raw.githack.com/five4x1/five4x1.github.io/main/bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
 }
 
 nav {
