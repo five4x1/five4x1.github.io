@@ -54,6 +54,7 @@ main{
 }
 .image-wrapper{
   background: white;
+  border: 1px soild #eaecef;
 }
 .image-wrapper:hover{
   transform: scale(1.5); 
