@@ -5,6 +5,13 @@ $(document).ready(function() {
   } else {
     $("#flex-container>#funcBatch").hide();
   }
+  
+  $(body).mousemove(function(e) {
+    var x = (e.pageX * -1 / 15);
+    var y = (e.pageY * -1 / 15);
+    $(this).css('background-position', x + 'px ' + y + 'px');
+  });
+                    
 });
 
 function funcBatch(){document.getElementById("funcBatch").href="https://jfofbz.deta.dev/index?url="+document.URL;return false;};
