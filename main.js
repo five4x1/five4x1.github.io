@@ -18,7 +18,7 @@ if ($(".paginate-container).length > 0){
   $('body').mousemove(function(e) {
     var x = (e.pageX * -1 / 15);
     var y = (e.pageY * -1 / 15);
-    $(this).css('background-position', x + 'px ' + y + 'px');
+    $('section').css('background-position', x + 'px ' + y + 'px');
   });
                     
 });
