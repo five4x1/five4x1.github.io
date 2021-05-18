@@ -5,4 +5,5 @@ $(document).ready(function() {
   } else {
     $("#flex-container>*").hide();
   }
+  alert("updated");
 });
