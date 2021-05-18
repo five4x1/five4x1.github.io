@@ -2,7 +2,10 @@ body {
   background-color: CornflowerBlue;
   color: AliceBlue !important;
 }
-
+nav{
+  background: none;
+  color: #fff;
+}
 .funcBatch {
   text-align: center;
 }
