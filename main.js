@@ -8,7 +8,7 @@ $(document).ready(function() {
   
   $('.items').removeAttr('style');
   
-  $(body).mousemove(function(e) {
+  $('body').mousemove(function(e) {
     var x = (e.pageX * -1 / 15);
     var y = (e.pageY * -1 / 15);
     $(this).css('background-position', x + 'px ' + y + 'px');
