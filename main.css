@@ -29,3 +29,7 @@ nav {
   color: black;
   background: white;
 }
+
+.white-text{
+  color: white!important
+}
