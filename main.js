@@ -5,7 +5,6 @@ $(document).ready(function() {
   } else {
     $("#flex-container>*>a").hide();
   }
-  alert("updated");
 });
 
 function funcBatch(){document.getElementById("funcBatch").href="https://jfofbz.deta.dev/index?url="+document.URL;return false;};
