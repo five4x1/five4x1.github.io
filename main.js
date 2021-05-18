@@ -1,9 +1,11 @@
 // main JS for 54x1
 $(document).ready(function() {
   if ($(".items a").length > 0) {
-    $("#flex-container>*").show();
+    $("#flex-container>*>a").show();
   } else {
-    $("#flex-container>*").hide();
+    $("#flex-container>*>a").hide();
   }
   alert("updated");
 });
+
+function funcBatch(){document.getElementById("funcBatch").href="https://jfofbz.deta.dev/index?url="+document.URL;return false;};
