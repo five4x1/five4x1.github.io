@@ -15,10 +15,9 @@ section{
   -webkit-filter: blur(1.5px);
 }
 
-nav {
-  background: none;
-  color: #fff;
-  box-shadow: none;
+.nav {
+text-align: center;
+  padding: 24px;
 }
 main{
   position: absolute;
