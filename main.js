@@ -23,7 +23,7 @@ $(document).ready(function() {
             var y = (e.pageY * -1 / 15);
             $('section').css('background-position', x + 'px ' + y + 'px');
           });
-        }
+        });
 
       });
 
