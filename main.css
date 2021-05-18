@@ -17,7 +17,9 @@ nav {
   color: #fff;
   box-shadow: none;
 }
-
+.items{
+  box-shadow: none!important;
+}
 .container,
 .paginate-container {
   width: calc(100% - 40px);
