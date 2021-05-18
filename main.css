@@ -47,3 +47,7 @@ main{
 .white-text{
   color: white!important
 }
+.image-content{
+    height: auto;
+    width: 100%;
+}
