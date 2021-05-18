@@ -6,9 +6,9 @@ $(document).ready(function() {
     $("#flex-container>#funcBatch").hide();
   }
 if ($(".paginate-container>*").length > 0){
-    $(this).show();
+    $('.paginate-container').show();
   } else {
-    $(this).hide();
+    $('.paginate-container').hide();
   }
 
   
